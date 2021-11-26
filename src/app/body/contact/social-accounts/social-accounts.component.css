@@ -7,26 +7,29 @@ a {
   color: #FFFFFF;
 }
 
-a .icon {
-  float: left;
-  margin-right: 20px;
+.icon-twitter {
+  background: url(../../../../assets/twitter.png) left bottom no-repeat;
 }
 
-.icon.icon-twitter {
-  background-position: 0px 0px;
+.icon-linkedin {
+  background: url(../../../../assets/linkedin.png) left bottom no-repeat;
 }
 
-.icon.icon-linkedin {
-  background-position: 0px -32px;
+.icon-email {
+  background: url(../../../../assets/email.png) left bottom no-repeat;
 }
 
-.icon.icon-email {
+/**
+.icon.icon-github {
   background-position: 0px -96px;
+  background: url(../../../../assets/github.png) left bottom no-repeat;
 }
+*/
 
 .icon {
-  display: inline-block;
-  background: url(../../../../assets/sm_icon_sprite.png) no-repeat;
-  height: 32px;
-  width: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 33px;
+  width: 33px;
 }
