@@ -1,4 +1,4 @@
-# personal_profile_angular4
+# Personal Profile Angular 
 
 personal_profile_angular4 is a Angular 4 template to build your personal profile. This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
