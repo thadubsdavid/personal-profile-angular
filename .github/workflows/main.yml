@@ -20,5 +20,8 @@ jobs:
       - name: Install dependencies
         run: npm install
       - run: npm run build --if-present
-      - run: npm test
+      # TODO: Check following command: - run: npm test
+    
+      - name: Print Feedback
+        run: echo "Hello, build was successful!"
 
