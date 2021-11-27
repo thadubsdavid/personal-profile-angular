@@ -2,12 +2,14 @@
   <div class="container">
     <div class="row">
       <div class="col col-xs-12 col-sm-8 col-sm-push-2">
-        <h2 class="title">Profile</h2>
-        <p class="subtitle">I'm a {{ userInfo['jobTitle'] }}</p>
+        <h2 class="title">ABOUT</h2>
+        <p class="subtitle">{{ userInfo['aboutMe'] }}</p>
         <hr>
-        <app-about-me></app-about-me>
-        <app-profile-picture></app-profile-picture>
-        <app-details></app-details>
+        <!--app-about-me></app-about-me-->
+        <div class="picturecontainer">
+          <app-profile-picture></app-profile-picture>
+        </div>
+        <!--app-details></app-details-->
       </div>
     </div>
   </div>

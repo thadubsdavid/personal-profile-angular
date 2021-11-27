@@ -5,8 +5,8 @@ export class UserService {
   public userInfo = {
     name: "David Patrick Adam",
     jobTitle: "Student",
-    aboutMe: "[Place your description here... For instance: I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.]",
-    profilePicture: "http://i0.wp.com/cdn.techgyd.com/save-whatsapp-profile-picture-image3.jpg?resize=337%2C337",
+    aboutMe: "I pursue excellence in everything I do and am always searching to improve myself in a field which is constantly changing and moving. Making cities a better place to live, work and visit by acknowledging myself in the field of software development.",
+    profilePicture: "./assets/PORTRAIT_BW.jpg",
     location: "Stuttgart, Germany",
     email: "davidpatrickadam@gmail.com",
     devpostAccount: "",

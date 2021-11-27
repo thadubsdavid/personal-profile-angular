@@ -1,7 +1,7 @@
 #profile {
   width: 100%;
   min-height: 100vh;
-  background-color: white;
+  background-color: #3a3a3a !important;
   margin: 0;
   padding: 0;
 }
@@ -12,9 +12,15 @@
 
 .subtitle {
   text-align: center;
-  color: #727878;
+  color: #d9d6cc;
 }
 
 #profile .row > div {
   margin-bottom: 20px;
+}
+
+.picturecontainer {
+  
+  text-align: center;
+  
 }
