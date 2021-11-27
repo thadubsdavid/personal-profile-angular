@@ -1,11 +1,14 @@
 img {
   width: 100%;
-  max-width: 246px;
-  height: auto;
+  height: 100%;
 
+  margin-left: 100%;
+
+  
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
+  
 }

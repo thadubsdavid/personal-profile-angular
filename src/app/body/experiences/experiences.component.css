@@ -1,7 +1,7 @@
 #experiences {
   width: 100%;
   min-height: 100vh;
-  background-color: rgb(252, 243, 207);
+  background-color: #3a3a3a !important;
   margin: 0;
   padding: 0;
 }
